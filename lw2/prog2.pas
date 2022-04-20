@@ -6,8 +6,8 @@ VAR
 BEGIN{SarahRevere}
   WRITELN('Content-Type: text/plain');
   WRITELN;
-  WRITELN(GetEnv('QUERY_STRING'));
   Lanterns := GetEnv('QUERY_STRING');
+  WRITELN(Lanterns);
   IF Lanterns = 'lanterns=1'
   THEN
     WRITELN('The British are coming by land.')

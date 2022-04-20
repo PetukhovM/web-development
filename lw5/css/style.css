@@ -1,0 +1,124 @@
+.header
+{
+    position: static;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.header__logo
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.8354px;
+    line-height: 122.33%;
+    /* identical to box height, or 38px */
+    letter-spacing: -0.045em;
+    
+    color: #000000;
+}
+
+.header__text
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    color: #000000;   
+}
+
+.header__button
+{   
+    width: 247px;
+    height: 55px;
+    margin-top: 30px;
+
+    background: #05090C;
+    border-radius: 4.59px;
+}
+
+.header__button-text
+{
+    position: relative;
+    top: 19px;
+     
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 103% */
+    text-align: center;
+    color: #FFFFFF;     
+}
+
+.main
+{
+    position: absolute;
+    width: 745px;
+    height: 306px;
+    margin-left: 50px;
+}
+
+.main__text
+{
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 0;
+    /* or 122px */
+    color: #000000;
+}
+
+.main__description
+{
+    position: absolute;
+    width: 545px;
+    height: 62px;
+    left: 0px;
+    top: 143px;
+
+    font-family: 'Roboto Condenced';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    /* or 31px */
+    color: rgba(0, 0, 0, 0.7);    
+}
+
+.main__button
+{
+    position: absolute;
+    width: 332px;
+    height: 55px;
+    left: 0px;
+    top: 251px;
+    
+    background: #05090C;
+    border-radius: 4.59px;
+}
+
+.main__button-text
+{
+    position: relative;
+    top: 19px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 103% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__logo-highlight, .main__text-highlight
+{
+    color: hotpink;
+}
