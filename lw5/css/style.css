@@ -10,8 +10,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 30.8354px;
-    line-height: 122.33%;
+    font-size: 31px;
+    line-height: 38px;
     /* identical to box height, or 38px */
     letter-spacing: -0.045em;
     
@@ -79,11 +79,9 @@
 {
     position: absolute;
     width: 545px;
-    height: 62px;
-    left: 0px;
-    top: 143px;
+    top: 155px;
 
-    font-family: 'Roboto Condenced';
+    font-family: 'Roboto condensed';
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -94,11 +92,10 @@
 
 .main__button
 {
-    position: absolute;
+    /*position: absolute;*/
     width: 332px;
     height: 55px;
-    left: 0px;
-    top: 251px;
+    margin-top: 290px;
     
     background: #05090C;
     border-radius: 4.59px;
@@ -116,6 +113,12 @@
     /* identical to box height, or 103% */
     text-align: center;
     color: #FFFFFF;
+}
+
+.main__image
+{
+    position: absolute;
+    top: 300px;
 }
 
 .header__logo-highlight, .main__text-highlight
